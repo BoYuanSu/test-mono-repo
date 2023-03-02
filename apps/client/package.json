@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-  },
-  "devDependencies": {
+    "shared-ui": "workspace:*"
   }
 }
