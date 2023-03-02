@@ -3,7 +3,7 @@
   "name": "shared-ui",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/shared-ui.es.js",
+  "main": "./dist/shared-ui.mjs",
   "scripts": {
     "build": "vite build"
   },

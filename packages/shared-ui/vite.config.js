@@ -26,7 +26,6 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, './index.js'),
       name: 'shared-ui',
-      fileName: (format) => `shared-ui.${format}.js`,
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
