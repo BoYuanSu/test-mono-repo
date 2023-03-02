@@ -1,0 +1,42 @@
+{
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.DS_Store": true,
+        "**/.factorypath": true,
+        "**/.git": false,
+        "**/.hg": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.svn": true,
+        "**/*.pyc": true,
+        "**/CVS": false,
+        "**/dist/**": false,
+        "**/node_modules/**": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    },
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "eslint.options": {
+        "extensions": [
+            ".html",
+            ".js",
+            ".vue"
+        ]
+    },
+    "eslint.validate": [
+        "html",
+        "javascript",
+        "vue"
+    ],
+    "stylelint.validate": [
+        "css",
+        "scss",
+        "vue"
+    ],
+    "css.validate": false,
+    "scss.validate": false,
+    "unocss.root": "packages/shared-ui"
+}
