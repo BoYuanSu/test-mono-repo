@@ -1,4 +1,6 @@
-import { createApp } from 'vue'
+import { createApp } from 'vue-demi'
+
+import 'uno.css'
 import './style.css'
 import App from './App.vue'
 
