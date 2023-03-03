@@ -2,6 +2,12 @@ import { createApp } from 'vue-demi'
 
 import 'uno.css'
 import './style.css'
+
+import ElementPlus from '@/plugins/element-plus'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+
+app.use(ElementPlus)
+
+app.mount('#app')

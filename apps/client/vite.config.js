@@ -7,6 +7,8 @@ import UnoCSS from 'unocss/vite'
 import transformerDirectives from '@unocss/transformer-directives'
 import postcssNested from 'postcss-nested'
 import fs from 'fs'
+import ElementPlus from 'unplugin-element-plus/vite'
+
 // const fs = require('fs')
 
 const https = () => {
@@ -28,6 +30,7 @@ export default defineConfig({
   plugins: [
     vue(),
     vueJsx(),
+    ElementPlus(),
     UnoCSS({
       transformers: [
         transformerDirectives(), // https://github.com/unocss/unocss/issues/1570
