@@ -5,7 +5,8 @@
   "description": "",
   "main": "./index.js",
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "build:css": "vite build --config ./vite.style.config.js"
   },
   "keywords": [],
   "author": "",

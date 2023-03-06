@@ -27,40 +27,4 @@ const attrs = useAttrs()
 
 </script>
 
-  <style lang="postcss">
-  .base-button {
-    @apply u-rounded-20px u-py-3 u-h-auto u-min-w-100px u-font-medium;
-
-    &.btn-primary {
-      @apply u-bg-primary-100 u-text-white;
-
-      &:hover {
-        @apply u-bg-primary-200;
-      }
-    }
-
-    &.btn-secondary {
-      @apply u-bg-white u-text-primary-100 u-border-primary-100;
-
-      &:hover {
-        @apply u-bg-primary-300;
-      }
-    }
-
-    &.btn-plain {
-      @apply u-bg-white u-text-gray-3 u-border-none;
-
-      &:hover {
-        @apply u-bg-primary-300;
-      }
-    }
-
-    &.is-disabled {
-      @apply u-bg-gray-de u-border-gray-87 u-text-gray-87;
-
-      &:hover {
-        @apply u-bg-gray-b u-border-gray-87 u-text-gray-76 ;
-      }
-    }
-  }
-  </style>
+<style lang="postcss" src="./style.css"></style>
