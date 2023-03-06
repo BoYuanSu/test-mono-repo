@@ -5,6 +5,7 @@
   "description": "",
   "scripts": {
     "dev:client": "vite apps/client --host",
+    "build:client": "vite build apps/client",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -18,7 +19,8 @@
     "dayjs": "^1.11.7",
     "lodash-es": "^4.17.21",
     "vue": "^3.2.45",
-    "vue-demi": "^0.13.11"
+    "vue-demi": "^0.13.11",
+    "shared-ui": "workspace:*"
   },
   "devDependencies": {
     "@sientech/eslint-config-frontend": "^2.0.2",

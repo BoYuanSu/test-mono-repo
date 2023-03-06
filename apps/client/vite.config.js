@@ -8,6 +8,7 @@ import transformerDirectives from '@unocss/transformer-directives'
 import postcssNested from 'postcss-nested'
 import fs from 'fs'
 import ElementPlus from 'unplugin-element-plus/vite'
+import path from 'path'
 
 // const fs = require('fs')
 
@@ -32,6 +33,7 @@ export default defineConfig({
     vueJsx(),
     ElementPlus(),
     UnoCSS({
+      configFile: path.resolve(__dirname, '../../packages/shared-ui/uno.config.js'),
       transformers: [
         transformerDirectives(), // https://github.com/unocss/unocss/issues/1570
       ],

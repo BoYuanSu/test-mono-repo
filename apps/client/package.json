@@ -9,8 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "element-plus": "^2.2.32",
-    "shared-ui": "workspace:*"
+    "element-plus": "^2.2.32"
   },
   "devDependencies": {
     "unplugin-element-plus": "^0.7.0"
