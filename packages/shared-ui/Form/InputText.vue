@@ -12,8 +12,8 @@
 
 <script setup>
 import { useVModel } from '@vueuse/core'
-import { h, resolveComponent, toRefs, useAttrs } from 'vue-demi'
-
+import { h, toRefs, useAttrs } from 'vue-demi'
+import SvgIcon from '../SvgIcon/SvgIcon.vue'
 const props = defineProps({
   name: { type: String, required: true },
   modelValue: { type: [Object, File, String, Number] },
@@ -35,7 +35,7 @@ const observeValue = useVModel(props, 'modelValue', emits)
 const { suffixIcon } = toRefs(props)
 const suffix = {
   render: () => h(
-    resolveComponent('SvgIcon'),
+    SvgIcon,
     { icon: suffixIcon.value, size: 20 }),
 }
 
