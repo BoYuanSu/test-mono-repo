@@ -1,0 +1,12 @@
+{
+    "extends": [
+        "stylelint-config-standard-scss",
+        "stylelint-config-recommended-vue/scss",
+        "stylelint-config-html/vue"
+    ],
+    "rules": {
+        "no-empty-source": null,
+        "block-no-empty": null,
+        "selector-class-pattern": null
+    }
+}
